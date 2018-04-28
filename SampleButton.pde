@@ -42,4 +42,12 @@ class SampleButton extends Button
     this.isActive = true;
     this.file.play();
   }
+  
+  void handleClick()
+  {
+    if(this.mouseOver)
+    {
+      this.play();
+    }
+  }
 }
